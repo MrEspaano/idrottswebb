@@ -1,14 +1,74 @@
 [
   {
-    "veckor": "v34–36",
-    "omrade": "Friidrott",
-    "fokus": "Teknik och samarbete",
+    "veckor": "Tidigt läsår",
+    "omrade": "Uppstart och friidrott",
+    "fokus": "Grundläggande friidrott, uppstart av arbetssätt och rutiner",
     "bedomning": false
   },
   {
-    "veckor": "v37–39",
-    "omrade": "Bollspel",
-    "fokus": "Spelförståelse",
+    "veckor": "Tidigt läsår",
+    "omrade": "Skridskor och isvett",
+    "fokus": "Säkerhet på is, risker och friluftsliv vintertid",
+    "bedomning": false
+  },
+  {
+    "veckor": "Höst",
+    "omrade": "Styrketräning",
+    "fokus": "Cirkelträning, kroppsideal och hälsa kopplat till styrketräning",
     "bedomning": true
+  },
+  {
+    "veckor": "Höst",
+    "omrade": "Bollspel",
+    "fokus": "Fotboll, basket, innebandy och handboll med fokus på spelförståelse",
+    "bedomning": false
+  },
+  {
+    "veckor": "Höst",
+    "omrade": "Rörelse till musik",
+    "fokus": "Rörelse, dans och träningspass till musik",
+    "bedomning": false
+  },
+  {
+    "veckor": "Höst",
+    "omrade": "Bad och simning",
+    "fokus": "Simning och vattenvana, kopplat till simkrav",
+    "bedomning": true
+  },
+  {
+    "veckor": "Sen höst",
+    "omrade": "Allemansrätt och friluftsliv",
+    "fokus": "Planera och genomföra friluftsliv, kulturella traditioner",
+    "bedomning": true
+  },
+  {
+    "veckor": "Sen höst",
+    "omrade": "Bad och friluftsliv",
+    "fokus": "Tält, stormkök, vindskydd och friluftsliv i praktiken",
+    "bedomning": false
+  },
+  {
+    "veckor": "Vinter",
+    "omrade": "Racketsport",
+    "fokus": "Pingis, badminton och pickleball",
+    "bedomning": false
+  },
+  {
+    "veckor": "Vinter",
+    "omrade": "Lekar och löpning",
+    "fokus": "Samarbetslekar och klassiska lekar, samt löpning",
+    "bedomning": false
+  },
+  {
+    "veckor": "Vinter",
+    "omrade": "Hälsa",
+    "fokus": "Puls, hjärta, aerob och anaerob träning",
+    "bedomning": true
+  },
+  {
+    "veckor": "Vår",
+    "omrade": "Friidrott och hälsa",
+    "fokus": "Aerob och anaerob träning kopplat till friidrott",
+    "bedomning": false
   }
 ]
