@@ -1,14 +1,5 @@
 {
   "7a": {
-    "v6": [
-      {
-        "dag": "måndag",
-        "sal": "Gy-sal",
-        "omkladningsrum": "2",
-        "kod": "A742",
-        "aktivitet": "Redskap – matta"
-      }
-    ],
     "v7": [
       {
         "dag": "onsdag",
@@ -17,10 +8,144 @@
         "kod": "A743",
         "aktivitet": "Styrka och rörlighet"
       }
+    ],
+    "v8": [
+      {
+        "dag": "måndag",
+        "sal": "B-hallen",
+        "omkladningsrum": "3",
+        "kod": "B210",
+        "aktivitet": "Bollspel – innebandy"
+      }
+    ],
+    "v9": [
+      {
+        "dag": "torsdag",
+        "sal": "Gy-sal",
+        "omkladningsrum": "2",
+        "kod": "A755",
+        "aktivitet": "Redskap – matta och trampett"
+      }
     ]
   },
-  "7f": {},
-  "8b": {},
-  "8c": {},
-  "8h": {}
+
+  "7f": {
+    "v7": [
+      {
+        "dag": "tisdag",
+        "sal": "Gy-sal",
+        "omkladningsrum": "1",
+        "kod": "A732",
+        "aktivitet": "Koordination och balans"
+      }
+    ],
+    "v8": [
+      {
+        "dag": "fredag",
+        "sal": "C-hallen",
+        "omkladningsrum": "4",
+        "kod": "C104",
+        "aktivitet": "Bollspel – basket"
+      }
+    ],
+    "v9": [
+      {
+        "dag": "onsdag",
+        "sal": "Gy-sal",
+        "omkladningsrum": "1",
+        "kod": "A748",
+        "aktivitet": "Styrketräning – cirkel"
+      }
+    ]
+  },
+
+  "8b": {
+    "v7": [
+      {
+        "dag": "måndag",
+        "sal": "B-hallen",
+        "omkladningsrum": "3",
+        "kod": "B201",
+        "aktivitet": "Bollspel – handboll"
+      }
+    ],
+    "v8": [
+      {
+        "dag": "torsdag",
+        "sal": "Gy-sal",
+        "omkladningsrum": "2",
+        "kod": "A760",
+        "aktivitet": "Redskap – stationsträning"
+      }
+    ],
+    "v9": [
+      {
+        "dag": "fredag",
+        "sal": "Utomhus",
+        "omkladningsrum": "5",
+        "kod": "U901",
+        "aktivitet": "Kondition – intervaller"
+      }
+    ]
+  },
+
+  "8c": {
+    "v7": [
+      {
+        "dag": "onsdag",
+        "sal": "Gy-sal",
+        "omkladningsrum": "2",
+        "kod": "A742",
+        "aktivitet": "Styrka – basövningar"
+      }
+    ],
+    "v8": [
+      {
+        "dag": "tisdag",
+        "sal": "B-hallen",
+        "omkladningsrum": "3",
+        "kod": "B214",
+        "aktivitet": "Bollspel – volleyboll"
+      }
+    ],
+    "v9": [
+      {
+        "dag": "torsdag",
+        "sal": "Gy-sal",
+        "omkladningsrum": "2",
+        "kod": "A769",
+        "aktivitet": "Redskap – parkour"
+      }
+    ]
+  },
+
+  "8h": {
+    "v7": [
+      {
+        "dag": "måndag",
+        "sal": "C-hallen",
+        "omkladningsrum": "4",
+        "kod": "C110",
+        "aktivitet": "Bollspel – fotboll"
+      }
+    ],
+    "v8": [
+      {
+        "dag": "onsdag",
+        "sal": "Gy-sal",
+        "omkladningsrum": "1",
+        "kod": "A753",
+        "aktivitet": "Rörlighet och skadeförebyggande"
+      }
+    ],
+    "v9": [
+      {
+        "dag": "fredag",
+        "sal": "Utomhus",
+        "omkladningsrum": "5",
+        "kod": "U908",
+        "aktivitet": "Orientering – grunder"
+      }
+    ]
+  }
 }
