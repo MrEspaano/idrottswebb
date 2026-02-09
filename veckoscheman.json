@@ -1,0 +1,26 @@
+{
+  "7a": {
+    "v6": [
+      {
+        "dag": "måndag",
+        "sal": "Gy-sal",
+        "omkladningsrum": "2",
+        "kod": "A742",
+        "aktivitet": "Redskap – matta"
+      }
+    ],
+    "v7": [
+      {
+        "dag": "onsdag",
+        "sal": "Gy-sal",
+        "omkladningsrum": "2",
+        "kod": "A743",
+        "aktivitet": "Styrka och rörlighet"
+      }
+    ]
+  },
+  "7f": {},
+  "8b": {},
+  "8c": {},
+  "8h": {}
+}
