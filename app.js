@@ -161,3 +161,9 @@ async function init() {
 }
 
 init();
+
+document.querySelectorAll(".start-card").forEach((card) => {
+  card.addEventListener("click", () => {
+    setActiveView(card.dataset.go);
+  });
+});
