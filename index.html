@@ -1,103 +1,20 @@
-<!doctype html>
-<html lang="sv">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Idrottsplanering</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="brand">
-        <span class="brand-mark">IF</span>
-        <div class="brand-text">
-          <p class="brand-title">Idrottsplanering</p>
-          <p class="brand-subtitle">Grundapp för högstadiet</p>
-        </div>
-      </div>
-      <nav class="main-nav" aria-label="Huvudmeny">
-        <button class="nav-btn is-active" data-view="start">Start</button>
-        <button class="nav-btn" data-view="veckoschema">Veckoschema</button>
-        <button class="nav-btn" data-view="terminsplanering">Terminsplanering</button>
-        <button class="nav-btn" data-view="om">Om kursen</button>
-      </nav>
-    </header>
+<section id="view-start" class="view is-active start-view">
+  <h1>Idrott &amp; hälsa – planering</h1>
 
-    <main class="container">
-      <section id="view-start" class="view is-active">
-        <h1>Välkommen</h1>
-        <p>
-          Här hittar du veckoschema och terminsplanering för idrott. Välj en
-          klass och en vecka för att se aktuella lektioner.
-        </p>
-        <div class="info-grid">
-          <div class="info-card">
-            <h2>Snabbt</h2>
-            <p>Allt är uppdaterat per vecka och klass.</p>
-          </div>
-          <div class="info-card">
-            <h2>Tydligt</h2>
-            <p>Stora klickytor och enkel navigering.</p>
-          </div>
-          <div class="info-card">
-            <h2>Mobilt</h2>
-            <p>Fungerar bra på telefon och dator.</p>
-          </div>
-        </div>
-      </section>
+  <p class="start-intro">
+    Här ser du veckoschema och terminsplanering för idrott.
+    Välj vad du vill titta på nedan.
+  </p>
 
-      <section id="view-veckoschema" class="view">
-        <h1>Veckoschema</h1>
-        <div class="panel">
-          <h2>Välj klass</h2>
-          <div id="class-buttons" class="button-row" aria-live="polite"></div>
-        </div>
+  <div class="start-actions">
+    <button class="start-card" data-go="veckoschema">
+      <h2>Veckoschema</h2>
+      <p>Se vad vi gör denna vecka</p>
+    </button>
 
-        <div class="panel">
-          <div class="week-controls">
-            <button id="prev-week" class="control-btn" aria-label="Föregående vecka">
-              Föregående vecka
-            </button>
-            <div class="week-display">
-              <p class="week-label">Vecka</p>
-              <p id="current-week" class="week-value">-</p>
-            </div>
-            <button id="next-week" class="control-btn" aria-label="Nästa vecka">
-              Nästa vecka
-            </button>
-          </div>
-        </div>
-
-        <div class="panel">
-          <h2>Schema</h2>
-          <div id="schedule-list" class="schedule-list" aria-live="polite"></div>
-        </div>
-      </section>
-
-      <section id="view-terminsplanering" class="view">
-        <h1>Terminsplanering</h1>
-        <div id="term-list" class="term-list" aria-live="polite"></div>
-      </section>
-
-      <section id="view-om" class="view">
-        <h1>Om kursen</h1>
-        <p>
-          Den här appen visar planering för idrottslektioner. Målet är att göra
-          det enkelt att se veckans upplägg, lokaler och aktiviteter.
-        </p>
-        <div class="info-card">
-          <h2>Bedömning</h2>
-          <p>
-            Terminsplaneringen visar vilka veckor som innehåller bedömning.
-          </p>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <p>Idrottsplanering &copy; 2026</p>
-    </footer>
-
-    <script src="app.js"></script>
-  </body>
-</html>
+    <button class="start-card" data-go="terminsplanering">
+      <h2>Terminsplanering</h2>
+      <p>Se vad vi arbetar med under läsåret</p>
+    </button>
+  </div>
+</section>
